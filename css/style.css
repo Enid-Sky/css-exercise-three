@@ -1,4 +1,6 @@
-
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #343334;
@@ -19,7 +21,7 @@ nav {
   position: fixed;
   width: 420px;
   background-color: #000000;
-  box-sizing: border-box;
+
 }
 
 .restaurant-list {
